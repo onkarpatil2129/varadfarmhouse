@@ -1,0 +1,92 @@
+@import url("https://cdn.syncfusion/ej2-base/styles/material.css");
+
+.bigcontainer-container {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .calendar__items {
+    margin-bottom: 24px;
+  }
+  
+  .calendar__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  .calendar__wrapper {
+
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  .calendar__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .bigcontainer-container > h1 {
+    color: #000;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  
+  .bigcontainer-container > p {
+    color: #000;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+
+  }
+  .bigcontainer-container > p {
+    font-size: 25px;
+    margin: 35px;
+  }
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+      margin-top: 10px;
+    }
+  }
+  #CalendarView{ /* Magic here */
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;  
+    padding-top: 30px;
+    margin-bottom: 20px;
+    
+  }
+  #formView{ /* Magic here */
+     background: rgb(118, 233, 204) ;
+    flex-direction: column;
+    width: 60%;
+    padding: 5%;
+    align-items: center;
+    object-fit: contain;  
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;    
+      margin-top: 10px;
+    }
+    
+  }
+  

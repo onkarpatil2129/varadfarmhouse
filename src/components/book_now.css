@@ -1,0 +1,10 @@
+#booknow{ /* Magic here */
+    background: rgb(255, 255, 255);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;  
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
